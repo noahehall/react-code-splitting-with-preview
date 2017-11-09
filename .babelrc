@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": [">= 10%", "last 2 versions"]
+      },
+      "modules": false
+    }],
+    "stage-2",
+    "react"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-runtime",
+    "lodash",
+    "dual-import-next"
+  ]
+}

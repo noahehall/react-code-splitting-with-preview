@@ -1,0 +1,5 @@
+*.log
+.cache-loader
+public
+node_modules
+jsconfig.json
